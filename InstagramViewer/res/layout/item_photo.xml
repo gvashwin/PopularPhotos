@@ -77,6 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tvCmntsLbl"
+        android:ellipsize="end"
+        android:maxLines="2"
         android:paddingLeft="@dimen/EightDp"
         android:text="TextView" />
 
@@ -86,6 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tv2ndLastComment"
+        android:ellipsize="end"
+        android:maxLines="2"
         android:paddingLeft="@dimen/EightDp"
         android:text="TextView" />
 
