@@ -3,8 +3,11 @@
 This is an android app for dispaying the popular or trending photos in instagram.
 The app was developed using the Instagram API <insert api here>
 
+##Third-Party Librarys Used
+ * Implemented the pull to refresh steam using this [library](https://github.com/erikwt/PullToRefresh-ListView)
+ * Implemented the circular image view using this [library](https://github.com/lopspower/CircularImageView)
 
-##Completed user stories
+##Completed User Stories
   * [x] User can open the app and view the popular or trending photos at that time.
   * [x] For each photo a actual image username and caption is displayed.
   * [x] Relative time stamp of each photo is displayed.
