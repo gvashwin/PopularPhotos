@@ -31,6 +31,8 @@ public class PhotosActivity extends Activity {
 	private String CLIENT_ID_VAL = "ada7a51e376048afa6e44a8f38259717";
 	
 	//private String API = "https://api.instagram.com/v1/media/popular?client_id=";
+	//https://api.instagram.com/v1/media/810238465619840335_323462098/comments?client_id=ada7a51e376048afa6e44a8f38259717
+	//https://api.instagram.com/v1/media/popular?client_id=ada7a51e376048afa6e44a8f38259717
 			
 	private ArrayList<InstagramPhoto> photoList;
 	private InstagramPhotosAdapter aPhotos;
