@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/civUsrPhoto"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ivLikeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ivPhoto"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:maxHeight="@dimen/LikeIcon"
+        android:maxWidth="@dimen/LikeIcon"
+        android:paddingLeft="4dp"
+        android:scaleType="center"
+        android:src="@drawable/hearts" />
+
+    <TextView
+        android:id="@+id/tvLikeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivLikeIcon"
+        android:layout_toRightOf="@+id/ivLikeIcon"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal|center|fill"
+        android:paddingLeft="@dimen/eightDp"
+        android:text="@string/default_like_count"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:id="@+id/tvCmntsLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvCaption"
+        android:paddingLeft="@dimen/EightDp"
+        android:text="@string/cmnts_label"
+        android:textSize="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:id="@+id/tvLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvCaption"
+        android:layout_toRightOf="@+id/tvLikeCount"
+        android:paddingLeft="@dimen/EightDp"
+        android:text="@string/label_like" />
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ivLikeIcon"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:paddingLeft="@dimen/eightDp"
+        android:text="@string/caption_default_text"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv2ndLastComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvCmntsLbl"
+        android:paddingLeft="@dimen/EightDp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvLastCmnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv2ndLastComment"
+        android:paddingLeft="@dimen/EightDp"
+        android:text="TextView" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civUsrPhoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/default_user_photo" />
+
+    <ImageView
+        android:id="@+id/ivClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivPhoto"
+        android:layout_below="@+id/tvUserName"
+        android:layout_toRightOf="@+id/civUsrPhoto"
+        android:adjustViewBounds="true"
+        android:maxHeight="16dp"
+        android:maxWidth="16dp"
+        android:src="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/civUsrPhoto"
+        android:gravity="center_horizontal"
+        android:text="@string/default_user_name"
+        android:textAlignment="center"
+        android:textSize="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:id="@+id/tvImgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivClock"
+        android:layout_below="@+id/tvUserName"
+        android:layout_toRightOf="@+id/ivClock"
+        android:gravity="center"
+        android:paddingTop="3dp"
+        android:text="TextView" />
+
+</RelativeLayout>

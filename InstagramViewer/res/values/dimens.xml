@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="LikeIcon">32dp</dimen>
+    <dimen name="eightDp">8dp</dimen>
+    <dimen name="EightDp">8dp</dimen>
+    <dimen name="forty8Dp">48dp</dimen>
+
+</resources>
