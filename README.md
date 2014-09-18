@@ -18,3 +18,6 @@ The app was developed using the Instagram API <insert api here>
   * [x] The Display of each photo is streamlined with that of the actual instagram app.
   * [x] Circular image view is used to diaply the profile pic of the user.
   * [x] Improved user experience with smooth scrolling using view holder pattern
+
+##App Demo
+![Video Walkthrough](PopularPhotosAppDemo.gif)
