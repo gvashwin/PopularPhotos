@@ -1,7 +1,7 @@
 #Popular Photos in Intagram
 
 This is an android app for dispaying the popular or trending photos in instagram.
-The app was developed using the Instagram API <insert api here>
+The app was developed using the [Instagram API](http://instagram.com/developer/endpoints/)
 
 ##Third-Party Librarys Used
  * Implemented the pull to refresh steam using this [library](https://github.com/erikwt/PullToRefresh-ListView)
