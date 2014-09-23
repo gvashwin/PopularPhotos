@@ -1,11 +1,12 @@
 #Popular Photos in Intagram
 
 This is an android app for displaying the popular or trending photos in instagram.
-The app was developed using the [Google Image API](https://developers.google.com/image-search/v1/jsondevguide#json_reference). Not this API is deprecated.
+The app was developed using the [Instagram API](http://instagram.com/developer/endpoints/)
+
 
 ##Third-Party Librarys Used
- * Implemented staggered grid view using this [library](https://github.com/f-barth/AndroidStaggeredGrid)
- * Implemented image pan/zoom using this [library](https://github.com/MikeOrtiz/TouchImageView)
+ * Implemented the pull to refresh steam using this [library](https://github.com/erikwt/PullToRefresh-ListView)
+ * Implemented the circular image view using this [library](https://github.com/lopspower/CircularImageView)
 
 ##Completed User Stories
   * [x] App user can open the app and view the popular or trending photos at that time.
